@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             autoPlay: false,
                             onPageChanged: (index, reason) {
                               _chewieController.pause();
-                          
+
                               if (list[index].fileType == 'VIDEO') {
                                 _chewieController.play();
                               }
@@ -71,9 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     width: MediaQuery.of(context).size.width,
                                     margin:
                                         EdgeInsets.symmetric(horizontal: 4.0),
-                                    child: Image.network(
-                                        'https://almaghaweer.ae:1111/mindari/uploads/' +
-                                            list[index].fileUrl)),
+                                    child: Image.network(list[index].fileUrl)),
                               );
                             } else {
                               _videoPlayerController =
