@@ -2,16 +2,7 @@ import 'package:slider_image/PhotoDemo.dart';
 
 class AppUtils{
 
-  List<Photos>photosList = [Photos(
-    fileId: 'M615',
-    fileName: 'horse_image',
-    useCoverFormat: false,
-    fileUrl: 'https://www.freepik.com/free-photo/shot-brown-stallion-grazing-green-meadow_10728708.htm#page=1&query=horse&position=2',
-    attachType: 'PHOTO',
-    fileType: 'PICTURE',
-    extension: 'jpg',
-    thumpUrl: 'Horse/80078/PHOTO/horse_image_2_thump.jpg',
-  ),
+  List<Photos>photosList = [
    Photos(
     fileId: 'M618',
     fileName: 'butterfly.mp4',
